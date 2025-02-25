@@ -22,3 +22,27 @@ This Go service is responsible for fetching destinations from a local database. 
 ```sh
 git clone https://github.com/yourusername/go-destination-service.git
 cd go-destination-service
+```
+
+
+### **2️⃣ Install Depedencies**
+```sh
+go mod tidy
+```
+
+### **3️⃣ Run Database Migrations**
+```sh
+go run main.go migrate
+```
+
+
+### **4️⃣ Start the server**
+```sh
+go run main.go
+```
+
+or 
+
+```sh
+air
+```
