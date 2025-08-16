@@ -8,7 +8,7 @@ This Go service is responsible for fetching destinations from a local database. 
 - Store new destinations in the database for future use
 - Uses GORM as ORM for database interactions
 - Optimized search by zip code
-
+- Nice!
 ---
 
 ## 🛠️ Setup & Installation
